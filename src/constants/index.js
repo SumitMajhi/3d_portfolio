@@ -1,28 +1,22 @@
 import {
-  mobile,
   backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
+  creator,
+  css,
+  git,
+  html,
+  javascript,
   jobit,
-  tripguide,
+  mobile,
+  mongodb,
+  nodejs,
+  reactjs,
+  starbucks,
+  tailwind,
   threejs,
+  tripguide,
+  typescript,
+  web
 } from "../assets";
 
 export const navLinks = [
@@ -80,10 +74,14 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
+  /*{
     name: "Redux Toolkit",
     icon: redux,
   },
+  {
+    name: "figma",
+    icon: figma,
+  }*/,
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -103,31 +101,27 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
+  }
+  /*{
     name: "docker",
     icon: docker,
-  },
+  },*/
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Customer support executive",
+    company_name: "Techno TAsk Business solutions",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2024 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned to effectively communicate with clients across different demographics, ensuring their concerns are addressed professionally and empathetically.",
+      "Learned to assess and handle tasks based on urgency and importance, ensuring critical client queries and operational tasks are addressed promptly.",
+      "Learned to communicate clearly, empathetically, and professionally, ensuring clients feel understood and valued.",
+      "Gained experience in making prompt, well-informed decisions to resolve customer queries effectively while adhering to company policies.",
     ],
-  },
+  },/*
   {
     title: "React Native Developer",
     company_name: "Tesla",
@@ -166,11 +160,11 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  },*/
 ];
 
 const testimonials = [
-  {
+  /*{
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sara Lee",
@@ -193,12 +187,12 @@ const testimonials = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  },*/
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Upcomming",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -216,7 +210,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SumitMajhi",
   },
   {
     name: "Job IT",
@@ -262,4 +256,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+

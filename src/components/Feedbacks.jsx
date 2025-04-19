@@ -1,10 +1,10 @@
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
 
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const FeedbackCard = ({
   index,
@@ -64,3 +64,4 @@ const Feedbacks = () => {
 };
 
 export default SectionWrapper(Feedbacks, "");
+/*Feed back.jsx*/
